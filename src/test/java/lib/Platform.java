@@ -48,12 +48,12 @@ public class Platform {
     {
         DesiredCapabilities capabilities =new DesiredCapabilities();
         capabilities.setCapability("platformName","Android");
-        capabilities.setCapability("deviceName","AndroidTestDvice");
-        capabilities.setCapability("platformVersion","6.0");
+        capabilities.setCapability("deviceName","and80");
+        capabilities.setCapability("platformVersion","8.0");
         capabilities.setCapability("automationName","Appium");
         capabilities.setCapability("appPackage","org.wikipedia");
         capabilities.setCapability("appActivity","main.MainActivity");
-        capabilities.setCapability("app","E:/Marina/Tel Ran/QA/JavaSeleniumLocal/javaAppAutomation/apks/org.wikipedia.apk");
+        capabilities.setCapability("app","/Users/pavelp/Downloads/org.wikipedia.apk");
         return capabilities;
     }
 
